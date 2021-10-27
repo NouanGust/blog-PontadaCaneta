@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 45px;
+    height: 1400px;
+}
+
+.parallax{
+    background-image: url("../imagens/paralax-image.jpg");
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    
+}
+
+.container{
+    background-color: white;
+}
+
+.bg-text{
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.719);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.bg-text h1{
+    font-size: 93px;
+}
+
+#ind{
+    margin-top: 325px;
+}
+
+#ind h2{
+    font-size: 55px;
+}
+
+#ind hr{
+    width: 200px;
+    height: 5px;
+    margin: auto;
+}
+
+#ind .escolhas{
+    margin-top: 40px;
+}
+
+#ind .ind{
+    margin-bottom: 320px;
+}
+
+#info{
+    height: 300px;
+    margin-top: 100px;
+}
+
+#info .info{
+    background-image: url(../imagens/book-bg-png.png);
+    background-position: center;
+    height: 620px;
+    margin: 60px;
+    margin-top: 150px;
+}
+
+#info .img{
+    z-index: 2;
+    position: relative;
+    bottom: 50px;
+}
+
+#info p{
+    font-size: 30px;
+    padding: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: inherit;
+    margin-left: 50px;
+    margin-top: 80px;
+
+}
+
+#info .txts{
+    margin-left: 80px;
+}
+
+footer{
+    background-color: #adb5bd;
+    height: 270px;
+}
+
+footer .container{
+    background-color: #adb5bd;
+}
+
+footer nav{
+    padding: 50px;
+}
+
+footer nav a{
+    font-size: 20px;
+}
+
+footer nav a.bl{
+    color: black;
+    transition: 0.6s;
+}
+
+footer nav a.bl:hover{
+    color: rgb(87, 86, 86);
+}
+
+footer .row hr{
+    transform: rotate(90deg);
+    width: 100px;
+    margin: auto;
+    height: 5px;
+    color: black;
+}
+
+footer .copy{
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+footer .copy a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .copy a:hover{
+    color: rgb(87, 86, 86);;
+}
+
+
+@media screen and (max-width: 650px){
+
+    #info .info{
+        background-image: url(../imagens/book-md-png.png);
+        margin: 0;
+        padding-left: 0;
+        height: 270px;
+        margin-top: 150px;
+        background-repeat: no-repeat;
+    }
+
+    #info p{
+        font-size: 10px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: inherit;
+        margin-top: 60px;
+        margin-left: 2px;
+        padding: 0;
+    
+    }
+
+    #info .txts{
+        margin-left: 168px;
+    }
+
+    footer{
+        height: 510px;
+    }
+    
+    footer .row hr{
+        display: none;
+        width: 100px;
+        margin: auto;
+        height: 5px;
+        color: black;
+    }
+    
+}

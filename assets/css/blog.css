@@ -1,0 +1,18 @@
+header{
+    background-color: rgb(33,37,41);
+}
+
+.container{
+    padding: 0;
+}
+
+#lh{
+    width: 100px;
+    height: 5px;
+    margin-bottom: 50px;
+}
+
+
+footer{
+    margin-top: 100px;
+}

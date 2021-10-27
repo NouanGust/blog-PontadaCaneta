@@ -1,0 +1,28 @@
+
+header{
+    background-color: rgb(33,37,41);
+}
+
+.main{
+    background-color: white;
+    height: 700px;
+}
+
+.main h1{
+    margin-top: 50px;
+}
+.main p{
+    text-align: start;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.container{
+    padding: 0;
+}
+
+article .main hr{
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    margin-bottom: 50px;
+}

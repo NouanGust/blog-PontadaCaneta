@@ -94,3 +94,16 @@ footer .copy a:hover{
 .share-btn-container a:hover{
     transform: scale(1.2);
 }
+
+#menu{
+    position: absolute;
+    top: 10px;
+    left: 275px;
+    display: none;
+}
+
+@media screen and (max-width: 650px){
+    #menu{
+        display: inline-block;
+    }
+}

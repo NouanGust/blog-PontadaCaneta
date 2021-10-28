@@ -9,6 +9,10 @@ header{
     margin-top: 80px;
 }
 
+.center{
+    padding: 50px;
+}
+
 #lh{
     width: 100px;
     height: 5px;
@@ -33,3 +37,4 @@ header .bg-gray a{
 header .bg-gray a:hover{
     color: rgb(154, 156, 156);;
 }
+

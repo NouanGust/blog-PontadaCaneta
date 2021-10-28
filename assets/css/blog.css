@@ -5,6 +5,9 @@ header{
 .container{
     padding: 0;
 }
+.main{
+    margin-top: 80px;
+}
 
 #lh{
     width: 100px;
@@ -15,4 +18,18 @@ header{
 
 footer{
     margin-top: 100px;
+}
+
+header .bg-gray{
+    background-color: rgb(33,37,41);
+}
+
+header .bg-gray a{
+    color: white;
+    font-size: 20px;
+    transition: 0.8s;
+}
+
+header .bg-gray a:hover{
+    color: rgb(154, 156, 156);;
 }

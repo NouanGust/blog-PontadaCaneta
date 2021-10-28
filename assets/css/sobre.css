@@ -27,23 +27,3 @@ article .main hr{
     margin-bottom: 50px;
 }
 
-.share-btn-container{
-    background-color: white;
-    display: flex;
-    padding: 16px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    justify-content: center;
-}
-
-.share-btn-container a i{
-    font-size: 32px;
-}
-
-.share-btn-container a{
-    margin: 12px 5px;
-    transition: 500ms;
-}
-
-.share-btn-container a:hover{
-    transform: scale(1.2);
-}

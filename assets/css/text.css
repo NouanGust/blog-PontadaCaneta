@@ -1,0 +1,22 @@
+.main .card-header{
+    border-bottom: none;
+}
+
+.main .card-body{
+    background-color: rgba(0, 0, 0, 0.03);
+    color: black;
+    font-size: 18px;
+}
+
+.main{
+    margin-top: 100px;
+    margin-bottom: 160px;
+}
+
+.main p{
+    color: black;
+}
+
+.card h1{
+    padding-top: 15px;
+}

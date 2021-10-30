@@ -5,11 +5,12 @@ header{
 
 .main{
     background-color: white;
-    height: 700px;
+    margin-bottom: 60px;
 }
 
 .main h1{
     margin-top: 50px;
+    margin-left: 20px;
 }
 .main p{
     text-align: start;
@@ -23,7 +24,43 @@ header{
 article .main hr{
     width: 100px;
     height: 5px;
-    margin: auto;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+#img{
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+.content{
     margin-bottom: 50px;
 }
 
+
+@media  screen and (max-width: 650px) {
+    #img{
+        position: absolute;
+        margin-top: 0;
+        height: 150px;
+        width: 150px;
+        right: 40px;
+        top: 60px;
+        
+    }
+
+    .img-container{
+        height: 150px;
+        width: 150px;
+    }
+
+    .content{
+        flex: auto;
+        margin-left: 5px;
+    }
+
+    .content p{
+        margin-left: 0;
+    }
+    
+}

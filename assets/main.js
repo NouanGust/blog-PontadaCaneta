@@ -1,3 +1,6 @@
+/* Share buttuns*/
+
+
 /* Links 
     https://api.whatsapp.com/send?text=[post-title] [post-url]
     https://www.facebook.com/sharer.php?u=[post-url]
@@ -20,3 +23,5 @@ function init(){
 }
 
 init()
+
+/* */

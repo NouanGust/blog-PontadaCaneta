@@ -37,6 +37,16 @@ article .main hr{
     margin-bottom: 50px;
 }
 
+.content p a{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.content p a:hover{
+    transition: 1.5s;
+    color: black;
+}
+
 
 @media  screen and (max-width: 650px) {
     #img{

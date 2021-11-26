@@ -102,6 +102,11 @@ footer .copy a:hover{
     display: none;
 }
 
+.share{
+    margin-top: 16px;
+    margin-right: 80px;
+}
+
 @media screen and (max-width: 650px){
     #menu{
         display: inline-block;

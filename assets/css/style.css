@@ -165,7 +165,7 @@ footer .copy a:hover{
 
     #info .info{
         background-image: url(../imagens/book-md-png.png);
-        margin: 0;
+        margin: auto 0;
         padding-left: 0;
         height: 270px;
         margin-top: 150px;
@@ -173,7 +173,7 @@ footer .copy a:hover{
     }
 
     #info p{
-        font-size: 10px;
+        font-size: 12px;
         font-family: 'Gloria Hallelujah', cursive;
         text-align: inherit;
         margin-top: 60px;
@@ -187,7 +187,8 @@ footer .copy a:hover{
     }
 
     #info .txts{
-        margin-left: 168px;
+        margin-left: 0;
+        margin-top: 1rem;
     }
 
     footer{

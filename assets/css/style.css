@@ -78,7 +78,7 @@ main{
     background-image: url(../imagens/book-bg-png.png);
     background-position: center;
     height: 620px;
-    margin: 60px;
+    margin: 0 auto;
     margin-top: 150px;
     background-repeat: no-repeat;
 }

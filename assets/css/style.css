@@ -163,6 +163,10 @@ footer .copy a:hover{
 
 @media screen and (max-width: 1500px){
 
+    .parallax{
+        min-height: 1550px;
+    }
+
     #ind .escolhas{
         flex-direction: column;
     }

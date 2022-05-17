@@ -11,7 +11,7 @@ main{
 
 .parallax{
     background-image: url("../imagens/paralax-image.jpg");
-    min-height: 750px;
+    min-height: 990px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@ main{
 }
 
 #info .txts{
-    margin-left: 80px;
+    margin: auto;
 }
 
 footer{
@@ -161,34 +161,35 @@ footer .copy a:hover{
 }
 
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 1500px){
+
+    #ind .escolhas{
+        flex-direction: column;
+    }
+
 
     #info .info{
-        background-image: url(../imagens/book-md-png.png);
-        margin: auto 0;
-        padding-left: 0;
-        height: 270px;
+        background-image: none;
+        margin: auto;
+        height: 300px;
         margin-top: 150px;
-        background-repeat: no-repeat;
     }
 
     #info p{
-        font-size: 12px;
+        font-size: 20px;
         font-family: 'Gloria Hallelujah', cursive;
-        text-align: inherit;
-        margin-top: 60px;
-        margin-left: 2px;
+        text-align: center;
+        margin:auto;
         padding: 0;
     
     }
 
-    #info .info-row{
-        margin: -11px;
+    .espa{
+        padding: 15px;
     }
 
     #info .txts{
-        margin-left: 0;
-        margin-top: 1rem;
+        margin: 10px auto;
     }
 
     footer{

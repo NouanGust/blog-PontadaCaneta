@@ -156,9 +156,25 @@ footer .copy a:hover{
     color: rgb(87, 86, 86);;
 }
 
-#anim:hover{
-    transition: 2s;
+
+#anim btn:hover i {
+    animation: setinha infinite ease-in-out;
 }
+
+@keyframes setinha {
+    0% {
+        margin-left: 5;
+    }
+
+    50% {
+        margin-left: 15px;
+    }
+
+    100% {
+        margin-left: 5px;
+    }
+}
+
 
 
 @media screen and (max-width: 1500px){

@@ -13,6 +13,13 @@ const twiBtn = document.querySelector(".twi-btn")
 const insBtn = document.querySelector(".ins-btn")
 const wppBtn = document.querySelector(".wpp-btn")
 
+
+
+
+
+
+
+
 function init(){
     let postUrl = encodeURI(document.location.href)
     let postTitle = encodeURI('Oi, da só uma olhada nisso: ')
@@ -24,5 +31,10 @@ function init(){
 
 init()
 
-/* */
+
+
+
+
+
+
 

@@ -44,11 +44,11 @@ main{
 }
 
 #ind{
-    margin-top: 325px;
+    margin-top: 300px;
 }
 
 #ind h2{
-    font-size: 55px;
+    font-size: 3.1rem;
 }
 
 #ind hr{
@@ -106,6 +106,56 @@ main{
 #info .txts{
     margin: auto;
 }
+
+#arquivo {
+}
+
+#arquivo .arquivo--container {
+    margin: 10px auto;
+    padding: 30px;
+    width: 80%;
+    height: 400px;
+    transform: skew(-10deg);
+    background-color: aqua;
+}
+
+#arquivo .arquivo--container h2 {
+    font-size: 3.1rem;
+}
+
+#arquivo .arquivo--container hr {
+    width: 200px;
+    height: 5px;
+}
+
+#arquivo .arquivo--container p {
+
+}
+
+.arquivo--texto {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin: 15px;
+}
+
+#cronicas {
+}
+
+#cronicas .cronicas--container {
+    margin: 120px auto;
+    padding: 30px;
+}
+
+#cronicas .cronicas--container h2 {
+    font-size: 3.1rem;
+}
+
+#cronicas .cronicas--container hr {
+    width: 200px;
+    height: 5px;
+    margin: 5px auto;
+}
+
 
 footer{
     background-color: #adb5bd;
@@ -173,6 +223,13 @@ footer .copy a:hover{
     100% {
         margin-left: 5px;
     }
+}
+
+.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 

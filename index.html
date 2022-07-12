@@ -55,7 +55,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="sobre.html">Sobre</a></li>
-                      <li><a class="dropdown-item" href="blog.html">Arquivo</a></li>
+                      <li><a class="dropdown-item" href="arquivo.html">Arquivo</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Home</a></li>
                       <li><a class="dropdown-item" href="#footer">Footer</a></li>
@@ -128,7 +128,7 @@
 
             <p class="arquivo--texto">
               Já leu as indicações?! <br>
-              Da uma olha no arquivo, lá você pode encontar todos os textos em um so lugar. <a href="blog.html" class="btn btn-primary"><i class="fas fa-angle-right arrow"></i></a>
+              Da uma olha no arquivo, lá você pode encontar todos os textos em um so lugar. <a href="arquivo.html" class="btn btn-primary"><i class="fas fa-angle-right arrow"></i></a>
             </p>
 
               
@@ -140,50 +140,88 @@
           </div>
         </section>
 
-        <section id="cronicas">
-          <div class="cronicas--container">
-            <h2 class="text-center">Crônicas do dia a dia</h2>
+        <section id="blog">
+          <div class="blog--container">
+            <h2 class="text-center">Blog</h2>
             <hr>
-
-            <div class="cronicas--accordion">
-              <div class="accordion accordion-flush" id="accordionExample">
+            
+            <div class="blog--accordion__conatiner">
+              <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
+                      Apresentação
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> <br> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <strong>O que é o blog?</strong> <br>
+                      <p></p>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
+                      #1
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <strong>Umbrella Academy</strong>
+                      <p>Em breve!</p>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
+                      #2
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <strong>Desaniversário</strong> 
+                      <p>Em breve!</p>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="cronicas">
+          <div class="cronicas--container">
+            <h2 class="text-center">Crônicas</h2>
+            <hr>
+
+            <div class="cronicas--accordion__container">
+              <div class="row"> 
+
+                <div class="col">
+                    <div class="card altr-pd">
+                        <div class="card-body">
+                          <h5 class="card-title">Cronicas do dia-a-dia #1</h5>
+                          <p class="card-text">A situação do strogonoff</p>
+                          <a href="textos/a-situacao-do-strogonoff.html" class="btn btn-primary" id="anim">Leia aqui  <i class="fas fa-angle-right arrow"></i></a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="card altr-pd">
+                        <div class="card-body">
+                            <h5 class="card-title">Cronicas do dia-a-dia #2</h5>
+                            <p class="card-text">Perdido no limbo</p>
+                            <a href="textos/perdido-no-limbo.html" class="btn btn-primary">Leia aqui <i class="fas fa-angle-right arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
             </div>
 
 
@@ -200,7 +238,7 @@
                 <div class="col">
                     <nav class="nav flex-column">
                         <a class="nav-link bl" href="index.html">Home</a>
-                        <a class="nav-link bl" href="blog.html">Blog</a>
+                        <a class="nav-link bl" href="arquivo.html">Blog</a>
                         <a class="nav-link bl" href="sobre.html">Sobre</a>
                     </nav>
                 </div>

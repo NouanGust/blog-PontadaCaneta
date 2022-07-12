@@ -6,7 +6,6 @@
 
 main{
     margin-top: 45px;
-    height: 1400px;
 }
 
 .parallax{
@@ -138,12 +137,30 @@ main{
     margin: 15px;
 }
 
+#blog {
+    margin: 120px;
+}
+
+.blog--container h2 {
+    font-size: 3.1rem;
+}
+
+#blog .blog--container hr {
+    width: 200px;
+    height: 5px;
+    margin: 5px auto;
+}
+
+.blog--accordion__conatiner {
+    margin: 35px auto;
+}
+
 #cronicas {
+    margin: 120px;
 }
 
 #cronicas .cronicas--container {
-    margin: 120px auto;
-    padding: 30px;
+
 }
 
 #cronicas .cronicas--container h2 {
@@ -156,10 +173,13 @@ main{
     margin: 5px auto;
 }
 
+.cronicas--accordion__container {
+    margin: 35px auto;
+}
+
 
 footer{
     background-color: #adb5bd;
-    height: 270px;
 }
 
 footer .container{

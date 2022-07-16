@@ -11,10 +11,6 @@
     box-sizing: border-box;
 }
 
-main{
-    margin-top: 45px;
-}
-
 .parallax{
     background-image: url("../imagens/paralax-image.jpg");
     min-height: 990px;
@@ -54,7 +50,7 @@ main{
 }
 
 #ind{
-    margin-top: 300px;
+    margin-top: 250px;
 }
 
 #ind h2{
@@ -223,7 +219,8 @@ footer .row hr{
 }
 
 footer .copy{
-    margin: 0;
+    margin: 0 auto;
+    padding: 10px;
     color: black;
     text-align: center;
 }
@@ -249,7 +246,7 @@ footer .copy a:hover{
 @media screen and (max-width: 1500px){
 
     .parallax{
-        min-height: 1000px;
+        min-height: 550px;
     }
 
     #ind .escolhas{
@@ -273,8 +270,8 @@ footer .copy a:hover{
         height: fit-content;
     }
 
-    #arquivo .arquivo--container p {
-        margin-bottom: 20px;
+    #arquivo .arquivo--container {
+        transform: skew(-7deg);
     }
 
     #arquivo .arquivo--container .botao {
@@ -287,6 +284,7 @@ footer .copy a:hover{
 
     #arquivo .arquivo--container p {
         font-size: var(--fonte-mobile-body);
+        margin-bottom: 20px;
     }
 
     #blog {
@@ -308,7 +306,11 @@ footer .copy a:hover{
     }
 
     footer{
-        height: 510px;
+        text-align: center;
+    }
+
+    footer .row {
+        flex-direction: column;
     }
     
     footer .row hr{

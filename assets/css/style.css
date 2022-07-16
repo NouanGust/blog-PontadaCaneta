@@ -28,6 +28,10 @@ main{
     
 }
 
+.linha {
+    margin: auto;
+}
+
 .container{
     background-color: white;
 }
@@ -139,7 +143,7 @@ main{
 }
 
 .arquivo--texto {
-    text-align: justify;
+    text-align: center;
     font-size: var(--fonte-desktop-body);
     margin: 15px;
 }

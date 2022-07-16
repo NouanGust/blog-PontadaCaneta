@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
+:root {
+    --fonte-desktop-titulo: 3.1rem;
+    --fonte-desktop-body: 1.5rem;
+    --fonte-mobile-titulo: 2.6rem;
+    --fonte-mobile-body: 1.2rem;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -47,7 +54,7 @@ main{
 }
 
 #ind h2{
-    font-size: 3.1rem;
+    font-size: var(--fonte-desktop-titulo);
 }
 
 #ind hr{
@@ -119,7 +126,7 @@ main{
 }
 
 #arquivo .arquivo--container h2 {
-    font-size: 3.1rem;
+    font-size: var(--fonte-desktop-body);
 }
 
 #arquivo .arquivo--container hr {
@@ -133,16 +140,16 @@ main{
 
 .arquivo--texto {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: var(--fonte-desktop-body);
     margin: 15px;
 }
 
 #blog {
-    margin: 120px;
+    margin-top: 120px;
 }
 
 .blog--container h2 {
-    font-size: 3.1rem;
+    font-size: var(--fonte-desktop-titulo);
 }
 
 #blog .blog--container hr {
@@ -156,7 +163,7 @@ main{
 }
 
 #cronicas {
-    margin: 120px;
+    margin-top: 120px;
 }
 
 #cronicas .cronicas--container {
@@ -164,7 +171,7 @@ main{
 }
 
 #cronicas .cronicas--container h2 {
-    font-size: 3.1rem;
+    font-size: var(--fonte-desktop-titulo);
 }
 
 #cronicas .cronicas--container hr {
@@ -226,25 +233,6 @@ footer .copy a:hover{
     color: rgb(87, 86, 86);;
 }
 
-
-#anim btn:hover i {
-    animation: setinha infinite ease-in-out;
-}
-
-@keyframes setinha {
-    0% {
-        margin-left: 5;
-    }
-
-    50% {
-        margin-left: 15px;
-    }
-
-    100% {
-        margin-left: 5px;
-    }
-}
-
 .fix {
     position: fixed;
     top: 0;
@@ -257,7 +245,7 @@ footer .copy a:hover{
 @media screen and (max-width: 1500px){
 
     .parallax{
-        min-height: 1550px;
+        min-height: 1000px;
     }
 
     #ind .escolhas{
@@ -265,21 +253,6 @@ footer .copy a:hover{
     }
 
 
-    #info .info{
-        background-image: none;
-        margin: auto;
-        height: 300px;
-        margin-top: 150px;
-    }
-
-    #info p{
-        font-size: 20px;
-        font-family: 'Gloria Hallelujah', cursive;
-        text-align: center;
-        margin:auto;
-        padding: 0;
-    
-    }
 
     .espa{
         padding: 15px;
@@ -287,6 +260,47 @@ footer .copy a:hover{
 
     #info .txts{
         margin: 10px auto;
+    }
+
+    #arquivo {
+        margin-top: 120px;
+        padding: 20px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    #arquivo .arquivo--container p {
+        margin-bottom: 20px;
+    }
+
+    #arquivo .arquivo--container .botao {
+        width: 200px;
+    }
+
+    #arquivo .arquivo--container h2{
+        font-size: var(--fonte-mobile-titulo);
+    }
+
+    #arquivo .arquivo--container p {
+        font-size: var(--fonte-mobile-body);
+    }
+
+    #blog {
+        margin-top: 120px;
+        padding: 20px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    #cronicas {
+        margin-top: 120px;
+        padding: 20px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    #cronicas .cronicas--container {
+        flex-direction: column;
     }
 
     footer{

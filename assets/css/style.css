@@ -109,6 +109,10 @@
     margin: 70px;
 }
 
+.espa {
+    padding: 15px;
+}
+
 #info .txts{
     margin: auto;
 }
@@ -126,7 +130,7 @@
 }
 
 #arquivo .arquivo--container h2 {
-    font-size: var(--fonte-desktop-body);
+    font-size: var(--fonte-desktop-titulo);
 }
 
 #arquivo .arquivo--container hr {
@@ -146,6 +150,7 @@
 
 #blog {
     margin-top: 120px;
+    padding: 20px;
 }
 
 .blog--container h2 {
@@ -163,7 +168,7 @@
 }
 
 #cronicas {
-    margin-top: 120px;
+    margin: 120px 0 0 10px;
 }
 
 #cronicas .cronicas--container {

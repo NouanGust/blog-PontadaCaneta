@@ -169,10 +169,11 @@
 
 #cronicas {
     margin: 120px 0 0 10px;
+    
 }
 
 #cronicas .cronicas--container {
-
+    
 }
 
 #cronicas .cronicas--container h2 {
@@ -187,6 +188,11 @@
 
 .cronicas--accordion__container {
     margin: 35px auto;
+    
+}
+
+.cronicas--accordion__flex {
+    display: flex;
 }
 
 

@@ -38,3 +38,8 @@ header .bg-gray a:hover{
     color: rgb(154, 156, 156);;
 }
 
+
+.container--main {
+    padding: 1.5%;
+
+}

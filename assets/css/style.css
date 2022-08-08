@@ -117,9 +117,6 @@
     margin: auto;
 }
 
-#arquivo {
-}
-
 #arquivo .arquivo--container {
     margin: 10px auto;
     padding: 30px;
@@ -136,10 +133,6 @@
 #arquivo .arquivo--container hr {
     width: 200px;
     height: 5px;
-}
-
-#arquivo .arquivo--container p {
-
 }
 
 .arquivo--texto {
@@ -168,11 +161,7 @@
 }
 
 #cronicas {
-    margin: 120px 0 0 10px;
-    
-}
-
-#cronicas .cronicas--container {
+    margin: 120px 0 10px 0;
     
 }
 
@@ -210,6 +199,8 @@ footer nav{
 
 footer nav a{
     font-size: 20px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 footer nav a.bl{
@@ -249,6 +240,10 @@ footer .copy a:hover{
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 

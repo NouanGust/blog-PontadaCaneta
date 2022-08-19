@@ -8,28 +8,33 @@
 
 */
 
-const faceBtn = document.querySelector(".face-btn")
+const facebookButton = document.querySelector('.face-btn')
 const twiBtn = document.querySelector(".twi-btn")
-const insBtn = document.querySelector(".ins-btn")
+const pinterestButton = document.querySelector(".pin-btn")
 const wppBtn = document.querySelector(".wpp-btn")
 
 
 
 
 
+const postUrl = encodeURI(document.location.href)
+const postTitle = encodeURI('Oi, da só uma olhada nisso: ')
+const postDesc = encodeURI('Dá uma olhada nisso')
 
 
 
 function init(){
-    let postUrl = encodeURI(document.location.href)
-    let postTitle = encodeURI('Oi, da só uma olhada nisso: ')
 
-    faceBtn.setAttribute('href', `https://www.facebook.com/sharer.php?u=${postUrl}`)
-    twiBtn.setAttribute('href', `https://twitter.com/share?url=${postUrl}&text=${postTitle}`)
-    wppBtn.setAttribute('href', `https://api.whatsapp.com/send?text=${postTitle} ${postUrl}`)
+    pinterestButton.setAttribute('href', `https://www.tumblr.com/share/link?url=${postUrl}&name=${postTitle}&description=${postDesc}`)
+    twiBtn.setAttribute('href', `https://twitter.com/share?url=${postUrl}&text=${postTitle}`);
+    wppBtn.setAttribute('href', `https://api.whatsapp.com/send?text=${postTitle} ${postUrl}`);
 }
 
 init()
+
+facebookButton.addEventListener('click', () => {
+    facebookButton.setAttribute('href', `https://www.facebook.com/sharer.php?u=${postUrl}`)
+})
 
 
 

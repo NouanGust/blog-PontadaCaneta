@@ -25,6 +25,10 @@ main {
         padding: 15px 30px 30px 30px;
         font-family: sans-serif;
 
+        @media (min-width: 900px) {
+            text-align: center;
+        }
+
        
 
         .divisao {

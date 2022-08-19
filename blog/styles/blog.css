@@ -18,6 +18,11 @@ main .container--principal {
   padding: 15px 30px 30px 30px;
   font-family: sans-serif;
 }
+@media (min-width: 900px) {
+  main .container--principal {
+    text-align: center;
+  }
+}
 main .container--principal .divisao {
   margin: 15px auto;
   height: 2px;

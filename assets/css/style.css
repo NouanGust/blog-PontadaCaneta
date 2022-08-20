@@ -11,6 +11,11 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 .parallax{
     background-image: url("../imagens/paralax-image.jpg");
     min-height: 990px;
@@ -19,9 +24,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    
+    filter: blur(10px); 
 }
 
 .linha {
@@ -34,19 +37,89 @@
 
 .bg-text{
     color: white;
-    font-size: 120px;
     font-weight: bold;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.719);
-    z-index: 2;
+    text-shadow: 2px 2px 6px #4D4545;
+    font-size: 5.3em;
     text-align: center;
+    z-index: 2;
 }
 
-.bg-text h1{
-    font-size: 93px;
+@media (max-width: 1450px) {
+
+
+    .bg-text {
+        font-size: 4.1em;
+    }
+}
+
+
+.container-seta {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+
+.container-seta span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #4D4545;
+    border-right: 5px solid #4D4545;
+    /* box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); */
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+@media (max-width:1450px) {
+    
+    .container-seta {
+        top: 65%;
+    }
+
+    .container-seta span {
+        border-bottom: 2.5px solid #4d4545;
+        border-right: 2.5px solid #4d4445;
+    }
+}
+
+.container-seta span:nth-child(1) {
+    animation-delay: -0.2s;
+}
+
+.container-seta span:nth-child(2) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+       opacity: 0;
+       transform: rotate(45deg) translate(-20px, -20px); 
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
 }
 
 #ind{
@@ -123,7 +196,8 @@
     width: 80%;
     height: 400px;
     transform: skew(-10deg);
-    background-color: aqua;
+    background-color: #4d4545;
+    color: #e3dcdc;
 }
 
 #arquivo .arquivo--container h2 {
@@ -133,6 +207,7 @@
 #arquivo .arquivo--container hr {
     width: 200px;
     height: 5px;
+    border: none;
 }
 
 .arquivo--texto {
@@ -186,35 +261,30 @@
 
 
 footer{
-    background-color: #adb5bd;
+    background-color: rgb(33,37,41);
 }
 
 footer .container{
-    background-color: #adb5bd;
+    background-color: rgb(33,37,41);
+    color: #e3dcdc;
 }
 
-footer nav{
-    padding: 50px;
+footer .nav {
+    padding: 25px 50px;
 }
 
 footer nav a{
     font-size: 20px;
     width: fit-content;
-    margin: 0 auto;
-}
-
-footer nav a.bl{
-    color: black;
-    transition: 0.6s;
-}
-
-footer nav a.bl:hover{
-    color: rgb(87, 86, 86);
+    margin: 5px auto;
+    text-align: center;
+    text-decoration: none;
+    color: #e3dcdc;
 }
 
 footer .row hr{
     transform: rotate(90deg);
-    width: 100px;
+    width: 10%;
     margin: auto;
     height: 5px;
     color: black;
@@ -222,13 +292,21 @@ footer .row hr{
 
 footer .copy{
     margin: 0 auto;
-    color: black;
+    color: #e3dcdc;
     text-align: center;
 }
 
 footer .copy a{
     text-decoration: none;
-    color: black;
+    color: #e3dcdc;
+    font-style: italic;
+}
+
+footer .copy .link-externo {
+    width: 15px;
+    height: 15px;
+    fill: #e3dcdc;
+
 }
 
 footer .copy a:hover{
@@ -319,11 +397,11 @@ footer .copy a:hover{
     }
     
     footer .row hr{
-        display: none;
-        width: 100px;
-        margin: auto;
+        width: 65%;
+        margin: 0 auto;
         height: 5px;
-        color: black;
+        border: none;
+        color: #4d4545;
     }
     
 }

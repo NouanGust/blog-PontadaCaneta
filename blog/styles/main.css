@@ -1,0 +1,81 @@
+header {
+  background-color: rgb(227, 220, 220);
+}
+header nav .navbar-brand {
+  color: #363333;
+}
+header nav a {
+  color: #363333;
+}
+header nav button span {
+  color: #363333;
+}
+
+main {
+  background-color: rgb(33, 37, 41);
+  height: 100vh;
+}
+main .container--principal {
+  margin: 0 auto;
+  background-color: rgb(227, 220, 220);
+  width: 80%;
+  padding: 15px 30px 30px 30px;
+}
+main .container--principal h2 {
+  font-size: 1.7em;
+  text-align: center;
+}
+main .container--principal .apresentacao {
+  margin-bottom: 100px;
+  font-size: 1em;
+  text-align: center;
+}
+main .container--principal .divisao {
+  border: 1px solid #363333;
+  margin: 0 auto;
+  width: 30%;
+  color: #363333;
+}
+main .post-accordion {
+  margin: 60px 0;
+  width: 100%;
+}
+main .post-accordion .accordion-header {
+  display: flex;
+  align-items: center;
+}
+main .post-accordion .accordion-header button {
+  border: none;
+  outline: none;
+  background-color: rgb(227, 220, 220);
+}
+main .post-accordion .accordion-header svg {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  margin-left: 10px;
+}
+main .post-accordion .accordion-body .sinopse {
+  font-size: 1em;
+  padding: 2px 8px 2px 8px;
+}
+main .post-accordion .accordion-body .sinopse .link {
+  margin-left: 10px;
+  color: #362d2d;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: rgb(33, 37, 41);
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+.footer p {
+  padding: 10px;
+  color: rgb(227, 220, 220);
+  text-align: center;
+}
+.footer p a {
+  color: rgb(227, 220, 220);
+}/*# sourceMappingURL=main.css.map */

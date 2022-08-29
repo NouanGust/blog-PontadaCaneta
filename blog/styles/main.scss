@@ -48,49 +48,32 @@ main {
             border: 1px solid #363333;
             margin: 0 auto;
             width: 30%;
-            color: #363333;
-        }
-    }
-
-    .post-accordion {
-        margin: 60px 0;
-        width: 100%;
-
-        .accordion-header {
-            display: flex;
-            align-items: center;
-
-            button {
-                border: none;
-                outline: none;
-                background-color: rgb(227, 220, 220);
-            }
-    
-            svg {
-                width: 20px;
-                height: 20px;
-                align-items: center;
-                margin-left: 10px;
-            }
         }
 
-        .accordion-body {
+        .link {
+            text-decoration: underline;
+            text-decoration-color: #362d2d;
+            margin-left: 10px;
+            color: #362d2d;
+            text-transform: uppercase;
+            
+        }
 
+        .post-container {
+            width: 100%;
 
+            .divisao-titulo {
+                width: 20%;
+                margin: 0;
+                border: 1px solid #363333;
+            }
 
-            .sinopse {
-                font-size: 1em;
-                padding: 2px 8px 2px 8px;
-
-                .link {
-                    margin-left: 10px;
-                    color: #362d2d;
-                    text-transform: uppercase;
-                    
-                }
+            .divisao-post {
+                border: 1px solid;
             }
         }
     }
+
 }
 
 .footer {

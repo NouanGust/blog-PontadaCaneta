@@ -30,8 +30,13 @@ main {
     .container--principal {
         margin: 0 auto;
         background-color: rgb(227, 220, 220);
-        width: 80%;
+        width: 85%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         padding: 15px 30px 30px 30px;
+
 
         h2 {
             font-size: 1.7em;
@@ -39,7 +44,7 @@ main {
         }
 
         .apresentacao {
-            margin-bottom: 100px;
+            margin: 20px auto;
             font-size: 1em;
             text-align: center;
         }
@@ -53,7 +58,7 @@ main {
         .link {
             text-decoration: underline;
             text-decoration-color: #362d2d;
-            margin-left: 10px;
+            margin-left: 5px;
             color: #362d2d;
             text-transform: uppercase;
             
@@ -62,14 +67,19 @@ main {
         .post-container {
             width: 100%;
 
+            .post-conteudo {
+                margin: 30px auto;
+            }
+
             .divisao-titulo {
                 width: 20%;
-                margin: 0;
+                margin: 0 0 20px 0;
                 border: 1px solid #363333;
             }
 
             .divisao-post {
                 border: 1px solid;
+
             }
         }
     }

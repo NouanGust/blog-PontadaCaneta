@@ -17,6 +17,8 @@ header {
 
 main {
     background-color: rgb(33,37,41);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
     .container--principal {
         background-color: rgb(227, 220, 220);
@@ -24,6 +26,8 @@ main {
         margin: 0 auto;
         padding: 15px 30px 30px 30px;
         font-family: sans-serif;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
 
         @media (min-width: 900px) {
             text-align: center;
@@ -153,7 +157,8 @@ main {
 .footer {
     background-color: rgb(33,37,41);
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    justify-content: baseline;
 
     p {
         padding: 10px;

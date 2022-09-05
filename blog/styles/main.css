@@ -14,11 +14,6 @@ header nav button span {
 main {
   background-color: rgb(33, 37, 41);
 }
-@media (min-width: 560px) {
-  main {
-    height: 100vh;
-  }
-}
 main .container--principal {
   margin: 0 auto;
   background-color: rgb(227, 220, 220);

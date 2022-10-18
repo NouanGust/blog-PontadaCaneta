@@ -22,6 +22,37 @@ const postTitle = encodeURI('Oi, da só uma olhada nisso: ')
 const postDesc = encodeURI('Dá uma olhada nisso')
 
 
+// Emails
+
+const limparInputs = () => {
+    
+    alert('dados salvos')
+    document.querySelector('input[name=name]').value = '';
+    document.querySelector('input[name=email]').value = '';
+
+}
+
+const handleSubmit = (e) => {
+    
+    let nomeInput = document.querySelector('input[name=name]').value;
+    let emailInput = document.querySelector('input[name=email]').value;
+    e.preventDefault();
+
+    fetch('https://api.sheetmonkey.io/form/oowgvgZCi5Tz9mxXjsELqN', {
+
+        method: 'post',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify( {name: nomeInput, email: emailInput} )
+    }).then( () => limparInputs())
+
+
+}
+
+document.querySelector('form').addEventListener('submit', handleSubmit);
+
 
 function init(){
 

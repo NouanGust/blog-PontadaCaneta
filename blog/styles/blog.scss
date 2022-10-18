@@ -90,7 +90,6 @@ main {
         .area-anuncio {
             color: rgb(227, 220, 220);
             width: 250px;
-            height: 200px;
             padding: 20px; 
             margin: 100px auto;
             background-color: #4D4545;
@@ -98,14 +97,77 @@ main {
             background-attachment: fixed;
             background-size: cover;
 
+            .link-externo {
+                display: inline-block;
+                position: relative;
+                text-decoration: none;
+                color: inherit;
+                z-index: 1;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: .07em;
+                    height: .1em;
+                    width: 100%;
+                    background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+                    z-index: -1;
+                }
+
+            }
+
             p {
                 z-index: 2;
                 text-align: center;
-                font-size: 1em;
+                font-size: 20px;
+                margin-bottom: 0;
 
                 i {
-                    font-size: 2em;
+                    font-size: 1em;
                     color: aqua;
+                    margin-top: 5px;
+                }
+            }
+
+            span {
+                font-size: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+            }
+
+            .form-container {
+                // padding: 0.625em;
+
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+
+                    input {
+                        border: none;
+                        outline: none;
+                        padding: 8px;
+                        border-radius: 10px;
+
+                        &::placeholder {
+                            font-size: 12px;
+                        }
+                    }
+
+                    button {
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        box-shadow: 3px 3px 6px #333;
+                    }
                 }
             }
         }

@@ -20,8 +20,7 @@ main .container--principal {
   width: 85%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+
   padding: 15px 30px 30px 30px;
 }
 main .container--principal h2 {
@@ -34,7 +33,7 @@ main .container--principal .apresentacao {
   text-align: center;
 }
 main .container--principal .divisao {
-  border: 1px solid #363333;
+  border-bottom: 1px solid #363333;
   margin: 0 auto;
   width: 30%;
 }
@@ -55,10 +54,10 @@ main .container--principal .post-container .post-conteudo {
 main .container--principal .post-container .divisao-titulo {
   width: 20%;
   margin: 0 0 20px 0;
-  border: 1px solid #363333;
+  border-bottom: 1px solid #363333;
 }
 main .container--principal .post-container .divisao-post {
-  border: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .footer {

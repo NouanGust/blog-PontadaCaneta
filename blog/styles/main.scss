@@ -50,11 +50,26 @@ main {
         }
 
         .link {
-            text-decoration: underline;
-            text-decoration-color: #362d2d;
             margin-left: 5px;
             color: #362d2d;
             text-transform: uppercase;
+            display: inline-block;
+            position: relative;
+            text-decoration: none;
+            color: inherit;
+            z-index: 1;
+
+
+            &::after {
+              content: '';
+              position: absolute;
+              left: 0;
+              bottom: .07em;
+              height: .1em;
+              width: 100%;
+              background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+              z-index: -1;
+            }
             
         }
 

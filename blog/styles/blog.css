@@ -11,6 +11,26 @@ header .dropdown-toggle {
 main {
   background-color: rgb(33, 37, 41);
 }
+
+main .container--principal .link-externo {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    z-index: 1;
+}
+
+main .container--principal .link-externo::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: .07em;
+  height: .1em;
+  width: 100%;
+  background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+  z-index: -1;
+}
+
 main .container--principal {
   background-color: rgb(227, 220, 220);
   width: 80%;

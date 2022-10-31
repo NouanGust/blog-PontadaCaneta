@@ -20,7 +20,6 @@ main .container--principal {
   width: 85%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-
   padding: 15px 30px 30px 30px;
 }
 main .container--principal h2 {
@@ -47,18 +46,16 @@ main .container--principal .link {
   color: inherit;
   z-index: 1;
 }
-
 main .container--principal .link::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
-  bottom: .07em;
-  height: .1em;
+  bottom: 0.07em;
+  height: 0.1em;
   width: 100%;
   background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
   z-index: -1;
 }
-
 main .container--principal .post-container {
   width: 100%;
 }

@@ -1,6 +1,7 @@
 body {
     background: url("../imagens/moodlyBrown.jpg")no-repeat center;
     background-size: cover;
+    background-position: center;
     font-family: sans-serif;
     padding: 0;
     margin: 0;
@@ -67,5 +68,24 @@ body {
         }
     }
 
+    .link-externo {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        z-index: 1;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: .07em;
+            height: .1em;
+            width: 100%;
+            background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+            z-index: -1;
+        }
+
+    }
 
 }

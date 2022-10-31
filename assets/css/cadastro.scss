@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to bottom, #212529, #4d4545);
+    height: 100vh;
+
+
+    section {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+
+        div {
+            color: white;
+            text-align: center;
+
+            .text {
+                padding: 10px;
+            }
+        }
+
+        .form-container {
+            // padding: 0.625em;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+    
+                input {
+                    border: none;
+                    outline: none;
+                    padding: 8px;
+                    border-radius: 10px;
+    
+                    &::placeholder {
+                        font-size: 14px;
+                    }
+                }
+    
+                button {
+                    width: 80%;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    box-shadow: 3px 3px 6px #333;
+                }
+            }
+        }
+    }
+
+
+
+}

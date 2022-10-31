@@ -1,4 +1,4 @@
-  header {
+header {
     background-color: rgb(227, 220, 220);
 
     nav {
@@ -16,27 +16,32 @@
 }
 
 main {
+
+    .link-externo {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        z-index: 1;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: .07em;
+            height: .1em;
+            width: 100%;
+            background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+            z-index: -1;
+        }
+
+    }
+
+
     background-color: rgb(33,37,41);
     
-    .link-externo {
-      display: inline-block;
-      position: relative;
-      text-decoration: none;
-      color: inherit;
-      z-index: 1;
-    
-      &::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: .07em;
-        height: .1em;
-        width: 100%;
-        background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
-        z-index: -1;
-      }
 
-    .container--principal {
+        .container--principal {
         background-color: rgb(227, 220, 220);
         width: 80%;
         margin: 0 auto;
@@ -229,23 +234,22 @@ main {
             }
         }
     }
-
 }
 
-.footer {
-    background-color: rgb(33,37,41);
-    margin: 0;
-    padding: 10px;
-    justify-content: baseline;
 
-    p {
+
+    .footer {
+        background-color: rgb(33,37,41);
+        margin: 0;
         padding: 10px;
-        color: rgb(227, 220, 220);
+        justify-content: baseline;
 
-        a {
+        p {
+            padding: 10px;
             color: rgb(227, 220, 220);
+
+            a {
+                color: rgb(227, 220, 220);
+            }
         }
     }
-}
-
-}

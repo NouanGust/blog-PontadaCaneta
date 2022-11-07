@@ -7,6 +7,7 @@
     --fonte-mobile-body: 1.2rem;
 }
 
+
 *{
     box-sizing: border-box;
 }
@@ -15,6 +16,7 @@ header {
     display: flex;
     flex-direction: column;
 }
+
 
 .parallax{
     background-image: url("../imagens/paralax-image.jpg");

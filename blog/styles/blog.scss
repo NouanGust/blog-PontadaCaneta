@@ -87,6 +87,11 @@ main {
             font-size: 1.8em;
             font-family: 'Dancing Script', cursive;
             font-weight: 700;
+
+            span {
+                font-size: 1.2rem;
+                line-height: 1.2rem;
+            }
         }
 
         .data {
@@ -241,8 +246,8 @@ main {
     .footer {
         background-color: rgb(33,37,41);
         margin: 0;
-        padding: 10px;
-        justify-content: baseline;
+        padding: 30px;
+        height: fit-content;
 
         p {
             padding: 10px;

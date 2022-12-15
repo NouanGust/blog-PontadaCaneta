@@ -21,9 +21,9 @@ body .trasparencia {
 body .trasparencia .caixa-texto {
   display: none;
   position: absolute;
-  width: 90%;
+  width: 100%;
   background-color: #fff;
-  padding: 10px 10px;
+  padding: 10px 5px;
   margin: 50px auto;
   z-index: 2;
   border-radius: 20px;

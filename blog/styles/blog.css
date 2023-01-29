@@ -42,6 +42,24 @@ main .container--principal {
     text-align: center;
   }
 }
+main .container--principal img {
+  width: 90%;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+@media (min-width: 900px) {
+  main .container--principal img {
+    width: 50%;
+    height: 50%;
+    padding: 0 10px;
+  }
+}
+main .container--principal figcaption {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
 main .container--principal .divisao {
   margin: 15px auto;
   height: 2px;

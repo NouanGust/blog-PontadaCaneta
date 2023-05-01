@@ -1,0 +1,127 @@
+body {
+    background: url("../imagens/sorvete-caro-fundo.jpg")no-repeat center;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+
+    @media (min-width: 900px) {
+        background-size: cover;
+    }
+    // height: 100vh;
+    
+    // @keyframes fadeIn {
+    //     from{ opacity: 0%;}
+    //     to{opacity: 100%;}
+    // }
+
+    .trasparencia {
+        width: 100%;
+        height: 740vh;
+        background: linear-gradient(to bottom, rgba(51, 50, 50, 0) 5%, rgba(0, 0, 0, 1) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: column;
+        gap: 300px;
+
+        @media (min-width: 300px){
+            height: 740vh;
+        }
+
+        @media (min-width: 360px) {
+            height: 740vh;
+        }
+
+        @media (min-width: 400px) {
+            height: 540vh;
+        }
+
+        @media(min-width: 900px ) {
+            height: 220vh;
+
+        }
+
+
+        .caixa-texto {
+            display: none;
+            position: absolute;
+            width: 85%;
+            background-color: #fff;
+            padding: 24px;
+            margin: auto;
+            z-index: 2;
+            border-radius: 20px;
+            box-shadow: 2px 2px 6px rgba(21, 21, 21, 0.8);
+            // animation-name: fadeIn;
+            // animation-duration: 10s;
+
+            @media(min-width: 900px ) {
+                width: 60%;
+                
+            }
+
+            .titulo {
+                margin-bottom: 20px;
+            }
+
+        }
+    }
+
+    .share-btn-container {
+        background-color: #fff;
+        align-items: center;
+        
+        p {
+            color: black;
+        }
+    }
+
+    footer {
+        background: rgba(0, 0, 0, 1) 100%;
+        position: bottom;
+        margin: 0;
+        padding: 0;
+
+        .container {
+            background: none;
+
+            nav {
+                margin: 0 auto 10px;
+                padding: 0;
+            }
+
+            a, p{
+                color: white;
+                margin: auto;
+            }
+
+            .copy {
+                margin: auto;
+            }
+        }
+    }
+
+    .link-externo {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        z-index: 1;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: .07em;
+            height: .1em;
+            width: 100%;
+            background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+            z-index: -1;
+        }
+
+    }
+
+}

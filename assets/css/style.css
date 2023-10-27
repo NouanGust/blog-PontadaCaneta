@@ -155,6 +155,11 @@ header {
     margin-top: 100px;
 }
 
+.novo {
+   font-size: 0.9em;
+   color: blueviolet; 
+}
+
 #info .info{
     background-image: url(../imagens/book-bg-png.png);
     background-position: center;

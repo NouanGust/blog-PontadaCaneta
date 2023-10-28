@@ -168,9 +168,6 @@ main .container--principal .area-anuncio .form-container form input {
 main .container--principal .area-anuncio .form-container form input::-moz-placeholder {
   font-size: 12px;
 }
-main .container--principal .area-anuncio .form-container form input:-ms-input-placeholder {
-  font-size: 12px;
-}
 main .container--principal .area-anuncio .form-container form input::placeholder {
   font-size: 12px;
 }
@@ -223,7 +220,6 @@ main .container--principal .compartilhe ul li i:hover {
   background-color: rgb(33, 37, 41);
   margin: 0;
   padding: 30px;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }

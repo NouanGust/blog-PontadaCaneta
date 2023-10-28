@@ -6,7 +6,7 @@ import time
 import pandas as pd
 
 
-"""
+
 # Definindo a pausa padrão do pyautogui
 pyautogui.pause = 1
 
@@ -31,7 +31,7 @@ pyautogui.click(x=453, y=403)
 time.sleep(2)
 pyautogui.press('enter')
 
-"""
+
 
 
 time.sleep(5)
@@ -66,9 +66,11 @@ def enviar_email(x, i):
     time.sleep(3)
 
     corpo_email = f"""
-    #Olá {x}, venha conferir o mais novo post do Blog Ponta da Caneta!
+    # cof cof... cuidado com a poeira... cof cof.
+    # Faz um tempinho, mas olá {x}! 
 
-    #link
+    # Pontadacaneta está de volta! Então já aproveita para conferir um novo texto.
+    #https://pontadacaneta.com.br/textos/siamesas.html
     #Espero que goste e até a proxima.
 
     """

@@ -92,7 +92,7 @@
                   <div class="col espa">
                     <div class="card altr-pd box-shadow">
                         <div class="card-body text-center">
-                          <h5 class="card-title">A Dinossauro Jane<p class="novo">(Novo!)</p></h5>
+                          <h5 class="card-title">A Dinossauro Jane<p class="novo"> b8(Novo!)</p></h5>
                           <p class="card-text">Olhe para os lados e esteja atento, você não vai querer encontrar as siamesas.</p>
                           <a href="textos/dinossauroJane.html" class="btn btn-primary" id="anim">Leia aqui <i class="fas fa-angle-right arrow"></i></a>
                         </div>
@@ -138,9 +138,6 @@
 
             </div>
         </section>
-
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9425124154984972"
-     crossorigin="anonymous"></script>
         
 
         <section id="blog">
@@ -189,9 +186,6 @@
 
           </div>
         </section>
-
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9425124154984972"
-     crossorigin="anonymous"></script>
         
 
         <section id="blog">

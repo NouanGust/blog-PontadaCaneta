@@ -70,6 +70,7 @@ footer .row hr{
 footer .copy{
     margin: 0;
     color: black;
+    justify-content: center;
     text-align: center;
 }
 
@@ -86,9 +87,15 @@ footer .copy a:hover{
 .share-btn-container{
     background-color: rgba(0,0,0, 0.03);
     display: flex;
-    padding: 16px;
+    padding: 20px;
     justify-content: start;
+    gap: 10px;
 }
+
+.share-btn-container p {
+    line-height: 60px;
+}
+
 
 .share-btn-container a i{
     font-size: 32px;
